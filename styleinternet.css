@@ -31,6 +31,19 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Style pour l'image */
+#presentation img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #2d3e50;
+    font-size: 2em;
+}
+
 footer {
     background-color: #2d3e50;
     color: white;
