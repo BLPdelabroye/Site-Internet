@@ -43,6 +43,37 @@ h2 {
     color: #2d3e50;
     font-size: 2em;
 }
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li { 
+    margin: 10px 0;
+}
+
+ul li b {
+    color: #2d3e50;
+}
+
+.jeu-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.jeu {
+    flex: 1 1 calc(50% - 20px);
+    background-color: #ececec;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.jeu h3 {
+    margin-top: 0;
+    color: #e74c3c
+}
 
 footer {
     background-color: #2d3e50;
